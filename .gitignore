@@ -1,0 +1,204 @@
+# ====================
+# Environment Files
+# ====================
+.env                          # Actual credentials (DO NOT COMMIT)
+.env.local
+.env.*.local
+.env.prod
+.env.staging
+
+# ====================
+# Python
+# ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# ====================
+# Virtual Environments
+# ====================
+venv/
+ENV/
+env/
+.venv
+venv.bak/
+env.bak/
+cricket_tracker/              # Project-specific venv
+
+# ====================
+# IDE & Editors
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.iml
+.netbeans/
+nbproject/
+.buildpath
+.settings/
+
+# ====================
+# Application Logs
+# ====================
+logs/
+*.log
+debug.log
+test.log
+
+# ====================
+# Cache Files
+# ====================
+.cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ====================
+# OS Specific
+# ====================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ====================
+# Security & Credentials
+# ====================
+# IMPORTANT: Never commit these
+secrets.json
+credentials.json
+*.pem
+*.key
+*.cert
+api_keys.txt
+tokens.json
+
+# ====================
+# Temporary Files
+# ====================
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*.docx
+
+# ====================
+# Project Specific
+# ====================
+# Database files
+*.db
+*.sqlite
+
+# Temporary test files
+test_*.py.tmp
+temp_*.py
+
+# Build artifacts
+/dist/
+/build/
+*.egg-info/
+
+# ====================
+# IDE Meta Files
+# ====================
+.editorconfig
+.prettierignore
+.eslintignore
+.pylintrc
+pyproject.toml
